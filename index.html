@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="tailwind.config.js"></script>
+  <title>login page</title>
+</head>
+<body>
+  <div class="flex ml-[3rem] h-[35rem] mr-[3rem]">
+    <div class="w-[32rem] pt-[3rem] h-[32rem]">
+      <img src="images/pictures-images.png" class="sm:hidden lg:block" alt="">
+    </div>
+    <div class="flex flex-col pt-[3.5rem] w-[41rem]">
+      <h1 class="font-['Poppins'] sm:ml-[2rem] lg:ml-[6rem] font-medium text-[#19192C] text-[2rem]">Connexion a Blue Ocean</h1>
+      <div>
+        <form class="max-w-md gap-3 pt-[2rem] mx-auto">
+          <div class=" gap-3 mb-4">
+            <label class="text-[#19192C] font-normal font-['Poppins'] mb-2" for="email">Email</label><br>
+            <div class="flex gap-2 bg-green-400 rounded-[0.5rem]">
+              <!-- <img src="images/email.png" alt="" class="w-[3rem] h-[3rem] py-2 px-2"> -->
+                <input class="rounded-[0.6rem] h-[3.3rem] w-full py-2 px-3 text-[#D9D9D9] border-[0.1rem] border-[#8EA7E9]" id="name" type="text" placeholder="abc@example.com">
+              </div>
+          </div>
+
+          <div class="gap-3 mb-4">
+            <label class="text-[#19192C] font-normal font-['Poppins'] mb-2" for="pass word">Mot de passe</label>
+            <input class="rounded-[0.6rem] h-[3.3rem] border-[0.1rem] w-full py-2 px-3 text-[#D9D9D9] border-[#9E9E9F] leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="******">
+          </div>
+          <div class="flex items-center justify-center">
+            <button class="font-medium font-['Poppins'] text-[#8EA7E9] py-2 px-4 ml-[17rem] underline" type="button">
+              Mot de passe oublié? 
+            </button>
+          </div>
+          <div class="flex items-center pt-[1.4rem] justify-center">
+            <button class="bg-[#7286D3] rounded-[1rem] w-[13rem] h-[3rem] font-['poppins'] font-medium text-[#FFF2F2] py-2 px-4" type="button">
+              Connexion
+            </button>
+          </div>
+        </form>
+        <div class="flex pt-[2rem] ml-[8rem] items-center">
+          <div class="border-t border-[#9E9E9F] w-[10rem] "></div>
+          <p class="text-center mx-4">ou avec</p>
+          <div class="border-t sm:mr-[2rem] border-[#9E9E9F] w-[10rem]"></div>
+        </div>
+        <div class="flex items-center gap-[4rem] pt-[5rem] ml-[18rem] justify-center w-12 h-12 rounded-[0.5rem]">
+          <img src="images/google.png" alt="">
+          <img src="images/facebook 1.png" alt="">
+          <img src="images/github.png" alt="">
+        </div>
+        <!-- <div class="flex gap-[3rem] pt-[3rem] ml-[12rem]">
+          <a href="#">
+            <img src="images/google.png" alt="">
+          </a>
+          <a href="#">
+            <img src="images/facebook 1.png" alt="">
+          </a>
+          <a href="#">
+            <img src="images/github.png" alt="">
+          </a>
+        </div> -->
+    </div>
+  </div>
+</body>
+</html>
